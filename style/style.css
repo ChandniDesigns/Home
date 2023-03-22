@@ -118,7 +118,7 @@ ul li .nav-link{
   background-position: bottom;
 }
 .banner,section {
-    padding: 160px 0 0 0 ;
+    padding: 120px 0 0 0 ;
 }
 .banner .title-banner{
 color: var(--primary-color);
@@ -175,7 +175,8 @@ font-weight: 700;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgb(110 29 242 / 90%);
+  /* background-color: rgb(110 29 242 / 90%); */
+  background-color: var(--soft-blue);
   opacity: 0;
   transition: opacity 0.5s;
   display: flex;
@@ -187,9 +188,9 @@ font-weight: 700;
 }
 
 .pts-overlay a {
-  color: #fff !important;
+  /* color: #fff !important; */
   font-size: 22px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--primary-color);
   border-radius:2px ;
 padding: 12px 24px;
   transition: background-color 0.3s ease, color 0.3s ease;
