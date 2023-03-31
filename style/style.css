@@ -387,7 +387,7 @@ vertical-align: bottom;
 
 /* Case Study Deatils */
 .ccs-img {
-    border-radius: var(--mirror-padding);
+    border-radius: 12px;
     width: 100%;
 }
 
