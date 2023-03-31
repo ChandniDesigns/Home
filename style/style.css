@@ -196,6 +196,9 @@ section {
 }
 
 
+/* Shadows */
+
+
 
 /* white-box */
 
@@ -382,8 +385,15 @@ vertical-align: bottom;
 }
 
 
+/* Case Study Deatils */
+.ccs-img {
+    border-radius: var(--mirror-padding);
+    width: 100%;
+}
 
-/* Fooyter */
+
+
+/* Footter */
 
 hr {
     opacity: .75;
