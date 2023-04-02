@@ -344,7 +344,7 @@ vertical-align: bottom;
     overflow: hidden;
   }
   
-  video, .img-bg {
+  .video-box video, .img-bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -386,8 +386,17 @@ vertical-align: bottom;
 
 
 /* Case Study Deatils */
-.ccs-img {
+.bt-12 {
+    border-radius: 12px 12px 0 0;
+}
+.bb-12 {
+    border-radius: 0 0 12px 12px;
+}
+
+.b-12 {
     border-radius: 12px;
+}
+.ccs-img {
     width: 100%;
 }
 
