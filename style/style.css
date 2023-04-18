@@ -202,7 +202,98 @@ section {
 }
 
 
-/* Shadows */
+/* Random-move */
+.Random-circle, .Random-circle2, .Random-circle3 {
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.Random-circle {
+    width: 100px;
+    height: 100px;
+    background: rgba(234, 129, 248, 0.09);
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    animation-name: moveCircle;
+    animation-duration: 10s;
+}
+
+.Random-circle2 {
+    width: 80px;
+    height: 80px;
+    background: rgba(95, 50, 189, 0.05);
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -20%);
+    animation-name: moveCircle2;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.Random-circle3 {
+    width: 100px;
+    height: 100px;
+    background: rgba(236, 153, 123, 0.05);
+    top: 80%;
+    left: 20%;
+    transform: translate(-40%, -20%);
+    animation-name: moveCircle3;
+    animation-duration: 8s;
+
+}
+
+
+
+@keyframes moveCircle {
+    0% {
+        top: 0%;
+        left: 00%;
+    }
+    50% {
+        top: 30%;
+        left: 70%;
+    }
+    100% {
+        top: 80%;
+        left: 20%;
+    }
+}
+
+@keyframes moveCircle2 {
+    0% {
+        top: 30%;
+        left: 70%;
+    }
+    50% {
+        top: 80%;
+        left: 20%;
+    }
+    100% {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@keyframes moveCircle3 {
+    0% {
+        top: 80%;
+        left: 20%;
+    }
+    50% {
+        top: 50%;
+        left: 50%;
+    }
+    100% {
+        top: 30%;
+        left: 70%;
+    }
+}
 
 
 
