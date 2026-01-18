@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montez&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montez&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montez&display=swap');
 :root{
-    --text-clor: #1D101F;
-    --primary-color:#5F32BD;
+    --text-color: #3E494A;
+    --primary-color:#036475;
     --mirror-white-background : -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.5) 100%),
     -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.29) 100%);
     --border-white-grad : -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.29) 100%);
@@ -19,7 +20,9 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Mona Sans", sans-serif;
+  font-optical-sizing: auto;
     font-size: 16px;
     font-weight: 400;
     line-height: 160%;
@@ -31,6 +34,8 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: -0.008em;
     line-height: 140%;
     font-weight: 600;
+  color: var(--primary-color);
+    ;
 }
 
 a{
@@ -59,7 +64,26 @@ color: var(--text-clor)!important;
     opacity: 0; /* Hide the element */
     animation: fade-in 1s ease-in-out forwards; /* Animate the element */
   }
+
+
+.label
+ {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
   
+.label-warning
+ {
+    background-color: #FF8223;
+}
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -70,6 +94,7 @@ color: var(--text-clor)!important;
       transform: translateY(0); /* Move the element back to its original position */
     }
   }
+  
 
 .hvrzoom, .hvrzoom:hover {
     transition: transform 0.2s ease-in-out;
@@ -78,6 +103,7 @@ color: var(--text-clor)!important;
 .hvrzoom:hover {
  transform: scale(1.05);
 }
+
 
 .mt-32 {
     margin-top: 32px;
@@ -118,7 +144,7 @@ color: var(--text-clor)!important;
 .logo-text, .logo-text:hover {
     font-family: 'Montez', cursive !important;
     color: var(--primary-color);
-    font-size: 38px;
+    font-size: 24px;
 }
 
 .navbar, .nav-mobile  {
@@ -126,10 +152,15 @@ color: var(--text-clor)!important;
     background-color: transparent !important;
 }
 
-.navbar li a.active {
+.navbar li a.active, .navbar li a.active {
     background: rgba(255, 255, 255, 0.4);
     font-weight: 600;
-    color: var(--text-clor);
+    color: var(--text-color);
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .navbar li a.active{
+    color: var(--text-color);
+    font-weight: 500;
+
 }
 
 
@@ -306,6 +337,11 @@ section {
 }
 
 
+.white-box-2 p{
+    color: var(--text-color) !important;
+}
+
+
 
 /* white-box-02 */
 .white-box-2 {
@@ -335,6 +371,50 @@ section {
     background: linear-gradient(180deg, rgba(232, 190, 175, 0.25) 0%, rgba(232, 190, 175, 0.5) 100%);
     border: 1px solid rgba(232, 190, 175, 0.43);
 }
+
+
+/* Hero section */
+
+.hidden {
+    display: none !important;
+}
+
+.hero {
+    padding: 72px 0 ;
+  }
+
+  .hero-width {
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+
+  }
+
+  .hero p {
+    margin-top: 12px;
+    font-weight: 500;
+  }
+
+  .hero-content {
+    width: 60%;
+    max-width: 800px;          /* prevents very wide text */
+    text-align: center;        /* optional */
+  }
+
+  .hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 110%;
+
+  }
+  
+  /* Responsive (tablet & mobile) */
+  @media (max-width: 768px) {
+    .hero-content {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
 
 
 
@@ -398,6 +478,8 @@ vertical-align: bottom;
     .content ul li img {
         max-width: 48px;
     }
+
+    
 
 .case-study {
     position: relative;
