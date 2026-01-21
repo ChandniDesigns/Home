@@ -143,7 +143,7 @@ color: var(--text-clor)!important;
 .logo-text, .logo-text:hover {
     font-family: 'Montez', cursive !important;
     color: var(--primary-color);
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .navbar, .nav-mobile  {
@@ -750,7 +750,7 @@ footer a {
 }
 
 footer p {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 
@@ -771,8 +771,8 @@ text-decoration: underline !important;
 }
 
 footer ul li a {
-  width: 62px;
-  height: 62px;
+  width: 52px;
+  height: 52px;
   background-color: #ffffffd0;
   border: 1px solid  rgba(255, 255, 255, 1);
   text-align: center;
@@ -788,8 +788,8 @@ footer ul li a {
 
 
 footer ul li a svg {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height:24px;
     vertical-align: text-top;
 }
 
