@@ -26,15 +26,20 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 160%;
+    transition: background .2s linear;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     color: var(--text-color);
     background-image: url(../images/Background.jpg);
     background-size: cover;
+        background-attachment: fixed;
+
     }
 h1, h2, h3, h4, h5, h6{
-    letter-spacing: -0.008em;
     line-height: 120%;
     font-weight: 600;
-font-family: CabinetGrotesk-Extrabold;  
+  font-family: 'CabinetGrotesk-Light';
 }
 
 a{
@@ -48,6 +53,9 @@ color: var(--text-clor)!important;
 }
 .width-100 {
     width: 100%;
+}
+.p-bold {
+    font-weight: 600;
 }
 .display-1 {
     font-size: 32px !important;
@@ -507,9 +515,9 @@ transition: transform 0.4s;
 
   .hero p {
     margin-top: 20px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 122%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
   }
 
   .hero-content {
@@ -520,11 +528,9 @@ transition: transform 0.4s;
 
   .hero-title {
     font-size: 72px;
-    font-weight: 700;
     line-height: 98%;
     letter-spacing: -1.8px;
-    font-family: CabinetGrotesk-Extrabold;
-    /* color: var(--primary-color); */
+  font-family: 'CabinetGrotesk-Extrabold';
     background: linear-gradient(90deg, #1847A3 0%, #273275 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -585,7 +591,7 @@ vertical-align: bottom;
 
     /* Banner */
     .content-title {
-        font-size: 24px;
+        font-size: 28px;
     }
 
 
