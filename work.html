@@ -14,6 +14,11 @@
     <!-- Js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
+<!-- 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
     <!-- Added Icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Chandni Thakur - Product Designer</title>
@@ -1036,21 +1041,20 @@
 <section class="case-section">
     <div class="container">
         <div class="row">
-    <div class="col-sm-3">
+    <div class="col-lg-3 col-md-12 col-sm-12">
             <aside id="nav-sidebar" class="nav nav-pills flex-column sticky-nav">
-            <a class="nav-link" href="#item-1"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Summary</span></a>
-            <a class="nav-link" href="#item-2"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Problem</span></a>
-            <a class="nav-link" href="#item-3"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Discovery</span></a>
-            <a class="nav-link" href="#item-4"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Ideation</span></a>
-            <a class="nav-link" href="#item-5"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Designs</span></a>
-            <a class="nav-link" href="#item-6"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Challenges</span></a>
-            <a class="nav-link" href="#item-7"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Learnings</span></a>
+            <a class="nav-link" href="#Summary"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Summary</span></a>
+            <a class="nav-link" href="#Problem"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Problem</span></a>
+            <a class="nav-link" href="#Discovery"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Discovery</span></a>
+            <a class="nav-link" href="#Ideation"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Ideation</span></a>
+            <a class="nav-link" href="#Designs"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Designs</span></a>
+            <a class="nav-link" href="#Challenges"><span class="sticky-nav-dot"></span><span class="sticky-nav-item">Challenges</span></a>
 
         </aside>
        
     </div>
 
-    <div class="col-sm-9 case">
+    <div class="col-lg-9 col-md-12 col-sm-12 case">
         <div class="case-intro">
             <h3 class="mb-3">Centralized system to track high-volume patient medical record retrieval across multiple roles</h3>
             <div class="row  mt-4 mb-5 case-intro-timeline">
@@ -1082,7 +1086,7 @@
         </div>
 
         <div data-bs-spy="scroll" data-bs-target="#nav-sidebar" data-bs-offset="100" tabindex="0">
-            <div id="item-1" class="case-part">
+            <div id="Summary" class="case-part">
                 <h4>Overview</h4>
                     <p>
                         MRR application is a platform that enables Surescript's VBC team to track the patient medical records from requesting them from providers to deliver it to there clients. This project exist to bring control, visibility, and consistency to the record-retrieval process, ensuring high-volume work feels manageable rather than chaotic.
@@ -1098,7 +1102,7 @@
 
             </div>
   
-    <div id="item-2" class="case-part">
+    <div id="Problem" class="case-part">
             <h4>Problem</h4>
                 <p>
                     The lack of centralized application for tracking medical records forces users to rely on spreadsheets, emails, and disconnected tools, leading to inefficiencies, delays, and a fragmented workflow, which risks of missed timelines and revenue leakage.
@@ -1117,7 +1121,7 @@
         </div>
     
   
-    <div id="item-3" class="case-part">
+    <div id="Discovery" class="case-part">
                 <h4>Talking to users</h4>
                 <p>
                     To quickly uncover requirements and pain points, discovery was conducted through cross-functional walkthrough sessions instead of one-on-one interviews. Live reviews of existing screens and workflows enabled contextual questions at key decision points, revealing how work actually happens.                
@@ -1172,7 +1176,7 @@
                 <p>
                         I received a lot of fragmented information about the workflow. To make sense of it, I mapped the entire medical record retrieval journey step by step to understand how work actually moved across the process. This helped me see the end-to-end flow clearly and plan screens that better supported each stage.                
                     <figure class="mt-2">
-                        <img src="./images/mrr-1.png" alt="Verisma overview"  style="width: 100%;">
+                        <img class="border-radius-8" src="./images/mrr-1.png" alt="Verisma overview"  style="width: 100%;">
                         <figcaption class="text-center mt-1 color-secondary"> <small>Workflow identified in the workshop</small></figcaption>
                     </figure>
 
@@ -1180,21 +1184,21 @@
                 <p>
                     This workshop focused on creating a journey map for the Project Intake journey—from the moment a chase list is received from the payer to when work is assigned to VBC agents.                    
                     <figure class="mt-2">
-                        <img src="./images/mrr-2.jpg" alt="Verisma overview"  style="width: 100%;">
+                        <img class="border-radius-8" src="./images/mrr-2.jpg" alt="Verisma overview"  style="width: 100%;">
                         <figcaption class="text-center mt-1 color-secondary"> <small>Workflow identified in the workshop</small></figcaption>
                     </figure>
 
 
         </div>
 
-        <div id="item-4" class="case-part">
+        <div id="Ideation" class="case-part">
             <h4>Wireframing solutions</h4>
                 <p>
                     With a clearer understanding of the requirements, I moved into wireframing starting with project creation and chase list upload. My primary goal was to validate the proposed solution early, while also accounting for technical constraints that could impact how the experience was built.
                 </p>
                  <figure class="mt-2">
-                        <img class="mb-4" src="./images/mrr-3.jpg" alt="Verisma overview"  style="width: 100%;">
-                        <img src="./images/mrr-4.jpg" alt="Verisma overview"  style="width: 100%;">
+                        <img class="mb-3 border-radius-8" src="./images/mrr-3.jpg" alt="Verisma overview"  style="width: 100%;">
+                        <img class="border-radius-8" src="./images/mrr-4.jpg" alt="Verisma overview"  style="width: 100%;">
 
                         <figcaption class="text-center mt-1 color-secondary"> <small>Early wireframes created for validation</small></figcaption>
                     </figure>
@@ -1206,13 +1210,105 @@
 
         </div>
   
-        <div id="item-5" class="case-part">
-            <h4>Designs</h4>
-                <p></p>
+        <div id="Designs" class="case-part">
+        <h4>Designs</h4>
+
+        <h5  class="case-sub-part">Existing design system</h5>
+        <p>
+            Verisma already had an existing design system used in another application. I reviewed it closely and identified a few accessibility gaps, along with usability concerns such as an oversized application header that felt disproportionate for this workflow.
+        </p>
+
+         <h5  class="case-sub-part">Opportinity to propose new design</h5>
+        <p>
+            Rather than reusing the system as-is, I took this as an opportunity to propose a fresh visual direction tailored specifically for this application. I connected with the client-side designer to understand their perspective and shared multiple design variations exploring a cleaner, more usable approach.
+        </p>
+        <p>
+            After discussions and iterations, the Verisma stakeholders agreed to move forward with a refined design system, introducing a fresh look while retaining familiar elements with thoughtful tweaks.
+        </p>
+
+        <!-- Carousel -->
+        <div id="mrr-screens" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="6"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="7"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="8"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="9"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="10"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="11"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="12"></button>
+                    <button type="button" data-bs-target="#mrr-screens" data-bs-slide-to="13"></button>
+
+
+
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (1).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (2).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (3).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (4).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (5).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (6).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (7).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (8).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (9).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (10).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (11).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (12).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (13).jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="border-radius-8 d-block w-100" src="./images/mrr-screens/screen (14).jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#mrr-screens" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mrr-screens" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+        </div>
 
         </div>
-        <div id="item-6" class="case-part">
+        <div id="Challenges" class="case-part">
             <h4>Challanges faces during the project</h4>
+
             <h5 class="case-sub-part">#1 Evolving requirements during discovery</h5>
             <p>
                 At the start of the project, the business requirements were not fully defined. As we began discovering the process and ideating solutions, additional use cases surfaced that needed to be addressed to make the retrieval workflow smoother. This required the engineering team to revisit estimates and re-align timelines to deliver a realistic MVP.
@@ -1222,14 +1318,9 @@
             <p>
                 Due to the length and complexity of the workflow, the number of screens grew significantly. With active weekly feedback sessions running in parallel, it became challenging for developers to keep track of the latest designs and changes during handoff.            
             </p>
-           
 
-
-        </div>
-
-               <div id="item-7" class="case-part">
             
-            <h4>key takeaways</h4>
+            <h4 class="mt-5">key takeaways</h4>
             <p>
                 I enjoyed working on this project—it was fun but also stressful because of the tight timelines. If given more time, I would have conducted usability testing to further refine the UI
             </p>
@@ -1239,6 +1330,8 @@
 
 
         </div>
+
+               
 
 
 
