@@ -538,6 +538,9 @@ transition: transform 0.4s;
     text-align: center;        /* optional */
   }
 
+  .hero-width.hero-details  .hero-content {
+        width: 75%;
+  }
   .hero-title {
     font-size: 72px;
     line-height: 98%;
