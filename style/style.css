@@ -75,6 +75,12 @@ color: var(--text-clor)!important;
     font-weight: 600;
 }
 
+.badge-outline {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color) ;
+    font-weight: 500;
+}
+
 .sub-heading {
     font-size: 22px;
     line-height: 160%;
@@ -478,7 +484,9 @@ transition: transform 0.4s;
 .white-box-2 {
     /* box-shadow: var(--mirror-white-drop); */
     border: 1px solid  rgba(255, 255, 255, 1);
-    background : linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 1));
+    /* background : linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 1)); */
+    background : linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 1));
+
 }
 
 
@@ -493,10 +501,10 @@ transition: transform 0.4s;
     transform: scale(1.05);
 }
 
-
+/* 
 .white-box-2 .content-title {
     color: var(--text-secondary);
-}
+} */
 
 
 
@@ -728,6 +736,21 @@ font-weight: 600;
 
 
 /* About */
+.about-hero-desc, .about-hero-head  {
+    text-align: left;
+}
+
+.count {
+    font-size:32px;
+    font-weight: 400;
+}
+
+
+.about .about-hero-desc {
+  font-size: 22px;
+}
+
+
 .education-item {
   border-left: 1px solid #f4f5f7;
   position: relative;
